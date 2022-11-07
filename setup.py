@@ -14,8 +14,8 @@ setup(
     description="Desafio DIO Unimed",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/tqi-acarolina/image-processing-package.git"
+    url="git@github.com:tqi-acarolina/image-processing-package.git",
     packages=find_packages(),
     install_requires=requirements,
-    python_requires='>=3.5',
+    python_requires='>=3.5'
 )
